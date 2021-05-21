@@ -14,10 +14,12 @@ variable "location" {
 // ----------------------------------------------------------------------------
 
 variable "jx_git_url" {
+  jx_git_url ="https://github.com/Kishoredocker/Azure-Vault"
   description = "URL for the Jenkins X cluster git repository"
   type        = string
 }
 variable "jx_bot_username" {
+  jx_bot_username ="Kishoredocker"
   description = "Bot username used to interact with the Jenkins X cluster git repository"
   type        = string
 }
